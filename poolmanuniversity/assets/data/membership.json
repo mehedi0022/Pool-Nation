@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Pool Nation Member",
+    "description": "Build your foundation with community",
+    "price_per_month": 49,
+    "price_per_year": 508,
+    "purchase_link": "#",
+    "features": [
+      "Full LMS Access",
+      "Business Mastermind Groups",
+      "Boot Camp & Conference Access",
+      "Vendor Rebates & Rewards",
+      "Mentorship & Community",
+      "Pool Nation Matrix Classes",
+      "Exclusive Member Content",
+      "Business Podcast Access"
+    ],
+
+    "features_not_available": [
+      "Pool Man University Access for Your Team",
+      "Matrix Financial Software Included",
+      "Year-Round Business Matrix Training",
+      "Employee Boot Camp Access",
+      "Financial Mentorship & Coaching",
+      "Peer Accountability Community",
+      "Team Conference Tickets",
+      "Pool Nation Awards Access",
+      "Expo Conference Passes"
+    ]
+  },
+  {
+    "title": "Pool Nation Matrix",
+    "description": "Your Financial Engine for Growth",
+    "price_per_month": 99,
+    "price_per_year": 1009,
+    "purchase_link": "#",
+    "features": [
+      "Full LMS Access",
+      "Business Mastermind Groups",
+      "Boot Camp & Conference Access",
+      "Vendor Rebates & Rewards",
+      "Mentorship & Community",
+      "Pool Nation Matrix Classes",
+      "Exclusive Member Content",
+      "Business Podcast Access",
+      "Pool Man University Access for Your Team",
+      "Matrix Financial Software Included",
+      "Year-Round Business Matrix Training",
+      "Employee Boot Camp Access",
+      "Financial Mentorship & Coaching",
+      "Peer Accountability Community",
+      "Team Conference Tickets",
+      "Pool Nation Awards Access",
+      "Expo Conference Passes"
+    ],
+
+    "features_not_available": []
+  }
+]
