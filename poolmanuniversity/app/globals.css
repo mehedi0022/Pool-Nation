@@ -45,7 +45,7 @@
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
+  --background: #f7f7f7;
   --foreground: oklch(0.129 0.042 264.695);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.129 0.042 264.695);
@@ -122,7 +122,7 @@
 }
 
 h1 {
-  @apply text-4xl font-bold;
+  @apply text-5xl font-bold;
 }
 h2 {
   @apply text-xl font-medium;
