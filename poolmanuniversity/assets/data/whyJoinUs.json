@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Manage Employee",
+    "description": "Easily add, organize, and track your employees in one place",
+    "icon": "/icons/manage-employee.png"
+  },
+  {
+    "title": "Education Courses",
+    "description": "Offer structured learning modules to boost employee knowledge",
+    "icon": "/icons/education-courses.png"
+  },
+  {
+    "title": "Training Videos",
+    "description": "Access engaging video tutorials to enhance skills and productivity",
+    "icon": "/icons/training-videos.png"
+  },
+  {
+    "title": "Quizzes",
+    "description": "Test understanding and reinforce learning with interactive quizzes",
+    "icon": "/icons/quizzes.png"
+  },
+  {
+    "title": "Live Chat",
+    "description": "Communicate instantly with team members or support via live chat",
+    "icon": "/icons/live-chat.png"
+  },
+  {
+    "title": "Business Tools",
+    "description": "Utilize powerful tools to streamline and grow your business operations",
+    "icon": "/icons/business-tools.png"
+  },
+  {
+    "title": "Loyalty Rewards",
+    "description": "Motivate employees with a points-based reward system for achievements",
+    "icon": "/icons/loyalty-rewards.png"
+  },
+  {
+    "title": "Certificates",
+    "description": "Award professional certificates upon course or training completion",
+    "icon": "/icons/certificate.png"
+  }
+]
