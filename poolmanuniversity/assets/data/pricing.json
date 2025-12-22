@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Pool Man University",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have",
+    "price_per_month": 0,
+    "price_per_year": 0,
+    "purchase_link": "#",
+    "features": [
+      "Training Videos",
+      "Education Courses",
+      "Quizzes",
+      "Certificates",
+      "Loyalty Rewards"
+    ]
+  },
+  {
+    "title": "Content",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have",
+    "price_per_month": 25,
+    "price_per_year": 22,
+    "purchase_link": "#",
+    "features": [
+      "Premium Video Content",
+      "Business Tools and Tracking",
+      "Chat",
+      "Training Videos",
+      "Education Courses",
+      "Quizzes",
+      "Certificates",
+      "Loyalty Rewards"
+    ]
+  },
+  {
+    "title": "Company Plan",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have",
+    "price_per_month": 80,
+    "price_per_year": 75,
+    "purchase_link": "#",
+    "features": [
+      "Upto 3 Free Employee Accounts",
+      "Chat",
+      "Premium Video Content",
+      "Business Tools and Tracking",
+      "Training Videos",
+      "Education Courses",
+      "Quizzes",
+      "Certificates",
+      "Loyalty Rewards"
+    ]
+  }
+]

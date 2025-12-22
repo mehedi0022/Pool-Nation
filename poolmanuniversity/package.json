@@ -14,15 +14,12 @@
     "@radix-ui/react-slot": "^1.2.4",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "embla-carousel-autoplay": "^8.6.0",
-    "embla-carousel-react": "^8.6.0",
     "lucide-react": "^0.556.0",
     "motion": "^12.23.26",
     "next": "^16.1.0",
     "next-themes": "^0.4.6",
     "react": "19.2.1",
     "react-dom": "19.2.1",
-    "react-infinite-logo-slider": "^1.1.4",
     "tailwind-merge": "^3.4.0"
   },
   "devDependencies": {
