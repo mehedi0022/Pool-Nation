@@ -1,12 +1,10 @@
 import { CheckCheck, CircleCheck, CircleX } from "lucide-react";
-
 import membership from "@/assets/data/membership.json";
 import { Button } from "./ui/button";
-import Link from "next/link";
 
 const MembershipTiers = () => {
   return (
-    <div className="container mx-auto grid grid-cols-2 gap-5 mt-6 mb-6">
+    <div className="container mx-auto grid grid-cols-2 gap-5 mt-20 mb-6">
       <div className="flex gap-4">
         {membership.map((membership_package, index) => (
           <div key={index} className="border p-4 rounded-2xl shadow">

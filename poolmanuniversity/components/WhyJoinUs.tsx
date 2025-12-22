@@ -9,7 +9,7 @@ import edgar from "@/public/Edgar-De-min.png";
 const WhyJoinUs = () => {
   return (
     <>
-      <div className="container mx-auto flex gap-10">
+      <div className="container mx-auto flex gap-10 mt-20">
         <div className="flex flex-col items-end basis-[40%]">
           <CustomButton text="Pool Pros" />
           <h2>Why Join Pool Pro!</h2>
@@ -19,16 +19,17 @@ const WhyJoinUs = () => {
             assign relevant courses tailored to their roles, and monitor their
             progress through interactive quizzes.
           </p>
-          <Button>Join Now</Button>
+          <div></div>
+          <Button className="mt-6">Join Now</Button>
         </div>
 
-        <div className="relative basis-[20%] w-full h-[400px] flex items-center justify-center">
+        <div className="relative basis-[20%] w-full flex items-center justify-center">
           {/* Background image */}
           <Image
             src="/why-join-us-bg.jpg"
             alt="Background"
             fill
-            className="object-contain"
+            className="object-cover rounded-xl"
             priority
           />
 
@@ -36,9 +37,9 @@ const WhyJoinUs = () => {
           <Image
             src="/Edgar-De-min.png"
             alt="Feature"
-            width={100}
+            width={200}
             height={100}
-            className="relative z-10"
+            className="overflow-hidden z-10"
           />
         </div>
 
@@ -52,7 +53,7 @@ const WhyJoinUs = () => {
             progress through interactive quizzes.
           </p>
 
-          <Button>Join Now</Button>
+          <Button className="mt-6">Join Now</Button>
         </div>
       </div>
 
@@ -64,7 +65,7 @@ const WhyJoinUs = () => {
 
         <div className="grid grid-cols-3 gap-10 mt-20 content-center">
           <div>
-            <div className="flex flex-col gap-5">
+            <div className="flex flex-col gap-10">
               {features.slice(0, 4).map((feature, index) => (
                 <div key={index} className="flex flex-row gap-3">
                   <div>
@@ -83,7 +84,7 @@ const WhyJoinUs = () => {
               ))}
             </div>
           </div>
-          <div>
+          <div className="flex flex-col justify-center items-center">
             <div className="relative w-full flex items-center justify-center">
               {/* Background image */}
               <Image
@@ -105,7 +106,7 @@ const WhyJoinUs = () => {
             </div>
           </div>
           <div>
-            <div className="flex flex-col gap-5">
+            <div className="flex flex-col gap-10">
               {features.slice(4, 8).map((feature, index) => (
                 <div key={index} className="flex gap-3">
                   <div>

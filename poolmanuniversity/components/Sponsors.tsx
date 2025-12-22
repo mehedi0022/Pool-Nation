@@ -1,15 +1,6 @@
 "use client";
-import * as React from "react";
-import Autoplay from "embla-carousel-autoplay";
-
-import { Card, CardContent } from "@/components/ui/card";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
+import Slider from "react-infinite-logo-slider";
+import { motion } from "motion/react";
 import Image from "next/image";
 
 const logo = [
@@ -25,42 +16,44 @@ const logo = [
 ];
 
 const Sponsors = () => {
-  const plugin = React.useRef(Autoplay({ stopOnInteraction: true }));
-
   return (
-    <div className="container mx-auto px-10 flex flex-col justify-center items-center">
+    <div className="container mx-auto flex flex-col justify-center items-center mt-6">
       <h1 className="text-center text-3xl font-bold mt-4">Official Sponsors</h1>
-      <div>
-        <Carousel
-          plugins={[plugin.current]}
-          onMouseEnter={plugin.current.stop}
-          onMouseLeave={plugin.current.reset}
+      <div className="flex gap-4 overflow-x-hidden sponserGreadient">
+        <motion.div
+          initial={{ x: 0 }}
+          animate={{ x: "-100%" }}
+          transition={{ duration: 25, repeat: Infinity, ease: "linear" }}
+          className="flex shrink-0 gap-4"
         >
-          <CarouselContent className="-ml-1">
-            {logo.map((item, index) => (
-              <CarouselItem
-                key={index}
-                className="pl-1 md:basis-1/4 lg:basis-1/6 mt-4"
-              >
-                <div className="p-1">
-                  <Card className="p-0">
-                    <CardContent className="flex aspect-auto items-center justify-center p-0">
-                      <Image
-                        className="w-full shadow rounded-lg"
-                        src={item.url}
-                        alt={item.name}
-                        width={100}
-                        height={100}
-                      />
-                    </CardContent>
-                  </Card>
-                </div>
-              </CarouselItem>
-            ))}
-          </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
-        </Carousel>
+          {logo.map((item, index) => (
+            <Image
+              key={index}
+              src={item.url}
+              alt={item.name}
+              width={170}
+              height={100}
+              className="rounded-xl border shadow-md my-4"
+            />
+          ))}
+        </motion.div>
+        <motion.div
+          initial={{ x: 0 }}
+          animate={{ x: "-100%" }}
+          transition={{ duration: 25, repeat: Infinity, ease: "linear" }}
+          className="flex shrink-0 gap-4"
+        >
+          {logo.map((item, index) => (
+            <Image
+              key={index}
+              src={item.url}
+              alt={item.name}
+              width={170}
+              height={100}
+              className="rounded-xl border shadow-md my-4"
+            />
+          ))}
+        </motion.div>
       </div>
     </div>
   );

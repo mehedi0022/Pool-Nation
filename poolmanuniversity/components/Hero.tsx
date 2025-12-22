@@ -6,12 +6,12 @@ import CustomButton from "./ui/CustomButton";
 const Hero = () => {
   return (
     <>
-      <div className="container mx-auto px-10 py-16 grid md:grid-cols-2 gap-8 bg-[url('/hero-bg.jpg')] dark:bg-[url('/dark-bg.jpg')] bg-cover bg-center rounded-2xl mt-6">
+      <div className="container mx-auto px-10 py-16 grid md:grid-cols-2 gap-8 bg-[url('/hero-bg.jpg')] dark:bg-[url('/dark-bg.jpg')] bg-cover bg-center rounded-2xl mt-10">
         <div className="flex flex-col justify-center">
           <CustomButton text="The only platform" />
-          <h2 className="text-6xl font-bold mb-4 capitalize">
+          <h1 className="text-6xl font-bold mb-4 capitalize">
             Dedicated to elevating through Education
-          </h2>
+          </h1>
           <p className="mt-4 text-base">
             Pool Man University’s web platform and app offer a seamless way for
             business owners to enhance their team’s skills. Add your employees,
