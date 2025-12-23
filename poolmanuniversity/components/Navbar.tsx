@@ -14,7 +14,13 @@ const Navbar = () => {
     <nav className="w-full flex items-center justify-between container mx-auto px-5 mt-0 md:mt-6 bg-white/90 py-4 backdrop-blur-lg dark:bg-gray-900/90 shadow-md md:rounded-full sticky top-0 z-50">
       <div>
         <Link href={"/"}>
-          <Image src="/logo.png" alt="Logo" width={170} height={90} />
+          <Image
+            src="/logo.png"
+            alt="Logo"
+            width={170}
+            height={90}
+            className="dark:invert"
+          />
         </Link>
       </div>
       <NavigationMenu className="hidden md:block">
