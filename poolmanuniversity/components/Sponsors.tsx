@@ -16,12 +16,11 @@ const logo = [
 
 const Sponsors = () => {
   return (
-    <div className="container mx-auto px-10 flex flex-col justify-center items-center mt-6">
+    <div className="container mx-auto px10 flex flex-col justify-center items-center mt-6">
       <h1 className="text-center text-3xl font-bold mt-4">Official Sponsors</h1>
       <div className="flex gap-4 overflow-x-hidden sponserGreadient">
         <motion.div
-          initial={{ x: 0 }}
-          animate={{ x: "-100%" }}
+          animate={{ x: ["0%", "-50%"] }}
           transition={{ duration: 25, repeat: Infinity, ease: "linear" }}
           className="flex shrink-0 gap-4"
         >
@@ -36,9 +35,9 @@ const Sponsors = () => {
             />
           ))}
         </motion.div>
+
         <motion.div
-          initial={{ x: 0 }}
-          animate={{ x: "-100%" }}
+          animate={{ x: ["0%", "-50%"] }}
           transition={{ duration: 25, repeat: Infinity, ease: "linear" }}
           className="flex shrink-0 gap-4"
         >

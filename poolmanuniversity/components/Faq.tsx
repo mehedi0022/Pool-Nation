@@ -27,7 +27,7 @@ const Faq = () => {
               key={index}
               type="single"
               collapsible
-              className="border dark:bg-gray-900/90 bg-[#FAF8FF] px-4 rounded-md"
+              className="border dark:bg-gray-900/90 bg-[#FAF8FF] px-4 rounded-md cursor-pointer"
             >
               <AccordionItem value="item-1" className="cursor-pointer">
                 <AccordionTrigger>{faq.question}</AccordionTrigger>
