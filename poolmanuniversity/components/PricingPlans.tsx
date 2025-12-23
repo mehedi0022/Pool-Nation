@@ -9,7 +9,9 @@ const PricingPlans = () => {
     <div className="container mx-auto my-10 px-10">
       <div className="flex flex-col items-center justify-center my-10">
         <CustomButton text="Pricing Plans" />
-        <h1>Choose The Plans That Suits You!</h1>
+        <h1 className="text-center text-base font-bold">
+          Choose The Plans That Suits You!
+        </h1>
 
         <div className="flex gap-3 border p-2 mt-6 rounded-xl ">
           <Button>Monthly</Button>
@@ -17,7 +19,7 @@ const PricingPlans = () => {
         </div>
       </div>
 
-      <div className="w-6xl mx-auto grid grid-cols-3 gap-10">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
         {pricing.map((plans, index) => (
           <div
             key={index}

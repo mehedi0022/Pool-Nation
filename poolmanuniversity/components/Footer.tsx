@@ -30,15 +30,15 @@ const Footer = () => {
         className="absolute bottom-0 right-0 overflow-hidden"
       />
 
-      <div className="container mx-auto px-10 mt-10">
+      <div className="container mx-auto px-5 md:px-10 mt-10">
         <div>
-          <div className="flex gap-10 bg-[#7444FD] p-20 rounded-4xl">
+          <div className="flex flex-col md:flex-row gap-5 md:gap-10 bg-[#7444FD] p-5 md:p-20 rounded-4xl">
             <div className="basis-[60%]">
               <CustomButton text="Mobile App" />
-              <h1 className="my-6 leading-14 text-white">
+              <h1 className="my-6 leading-10 md:leading-14 text-white">
                 Download our app and start your learning journey today!
               </h1>
-              <p className="text-xl">
+              <p className="text-base md:text-xl">
                 Pool Man University’s web platform and app offer a seamless way
                 for business owners to enhance their team’s skills. Add your
                 employees, assign relevant courses tailored to their roles, and
@@ -71,38 +71,42 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-3 gap-20 py-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-20 py-20">
           <div>
-            <Image src="/logo.png" alt="logo" width={170} height={100} />
-            <p>
-              Pool Man University’s web platform and app offer a seamless way
-              for business owners to enhance their team’s skills. Add your
-              employees, assign relevant courses tailored to their roles, and
-              monitor their progress through interactive quizzes.
-            </p>
-          </div>
+            <div>
+              <Image src="/logo.png" alt="logo" width={170} height={100} />
+              <p>
+                Pool Man University’s web platform and app offer a seamless way
+                for business owners to enhance their team’s skills. Add your
+                employees, assign relevant courses tailored to their roles, and
+                monitor their progress through interactive quizzes.
+              </p>
+            </div>
 
-          <div>
-            <h2>Important Links</h2>
-            <ul>
-              <li>
-                <a href="#">poolnation.com</a>
-              </li>
-              <li>
-                <a href="#">poolnation.com</a>
-              </li>
-              <li>
-                <a href="#">poolnation.com</a>
-              </li>
-              <li>
-                <a href="#">poolnation.com</a>
-              </li>
-            </ul>
+            <div>
+              <h2>Important Links</h2>
+              <ul>
+                <li>
+                  <a href="#">poolnation.com</a>
+                </li>
+                <li>
+                  <a href="#">poolnation.com</a>
+                </li>
+                <li>
+                  <a href="#">poolnation.com</a>
+                </li>
+                <li>
+                  <a href="#">poolnation.com</a>
+                </li>
+              </ul>
+            </div>
           </div>
 
           <div>
             <div className="dark:bg-gray-900/90 bg-[#FAF8FF] border shadow rounded-xl h-full p-6">
-              <h2>Don’t Miss the Monthly Spotlight</h2>
+              <h6 className="text-xl font-bold">
+                Don’t Miss the Monthly Spotlight
+              </h6>
               <p>
                 Join our mailing list and receive a free Spotlight update every
                 month—straight to your inbox.
@@ -130,7 +134,7 @@ const Footer = () => {
 
         <div className="h-0.5 border"></div>
 
-        <div className="flex justify-between py-5">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-2 py-5">
           <div>
             <p>Privacy-Policy & Trams of Service</p>
           </div>

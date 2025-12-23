@@ -8,7 +8,7 @@ import WhyJoinUs from "@/components/WhyJoinUs";
 
 export default function Home() {
   return (
-    <>
+    <div>
       <Hero />
       <Sponsors />
       <MembershipTiers />
@@ -16,6 +16,6 @@ export default function Home() {
       <PricingPlans />
       <HowItWorks />
       <Faq />
-    </>
+    </div>
   );
 }

@@ -8,31 +8,33 @@ const HowItWorks = () => {
       <div className="container mx-auto px-10">
         <div className="flex flex-col justify-center items-center">
           <CustomButton text="How It Works?" />
-          <h1>Manage Everything For You!</h1>
+          <h1 className="text-center text-base font-bold">
+            Manage Everything For You!
+          </h1>
         </div>
 
-        <div className="relative grid grid-cols-3 gap-10 my-10 py-5">
+        <div className="relative grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-10 my-10">
           <Image
             src="/howItWorks.png"
             alt="Work Process"
             fill
-            className="absolute object-contain"
+            className="absolute hidden md:block object-contain"
           />
-          <div className="flex flex-col gap-2.5 justify-start items-center px-5 min-h-[180px] max-w-[300px] mx-auto">
+          <div className="flex flex-col gap-2.5 justify-start items-center px-5 min-h-[120px] md:min-h-[180px] max-w-[300px] mx-auto">
             <CustomButton text="Step 1" />
             <h2>Choose Your Package</h2>
             <h3 className="text-center">
               Explore and select the perfect plan tailored to your needs
             </h3>
           </div>
-          <div className="flex flex-col gap-2.5 justify-end items-center px-5 min-h-[180px] max-w-[300px] mx-auto">
+          <div className="flex flex-col gap-2.5 justify-start md:justify-end items-center px-5 min-h-[120px] md:min-h-[180px] max-w-[300px] mx-auto">
             <CustomButton text="Step 2" />
             <h2>Create Account</h2>
             <h3 className="text-center">
               Sign up quickly to unlock exclusive features
             </h3>
           </div>
-          <div className="flex flex-col gap-2.5 justify-start items-center px-5 min-h-[180px] max-w-[300px] mx-auto">
+          <div className="flex flex-col gap-2.5 justify-start items-center px-5 min-h-[120px] md:min-h-[180px] max-w-[300px] mx-auto">
             <CustomButton text="Step 3" />
             <h2>Install App & Enjoy</h2>
             <h3 className="text-center">

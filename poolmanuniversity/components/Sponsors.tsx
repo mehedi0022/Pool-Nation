@@ -29,7 +29,7 @@ const Sponsors = () => {
               key={index}
               src={item.url}
               alt={item.name}
-              width={170}
+              width={150}
               height={100}
               className="rounded-xl border shadow-md my-4"
             />
@@ -46,7 +46,7 @@ const Sponsors = () => {
               key={index}
               src={item.url}
               alt={item.name}
-              width={170}
+              width={150}
               height={100}
               className="rounded-xl border shadow-md my-4"
             />

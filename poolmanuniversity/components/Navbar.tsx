@@ -11,11 +11,11 @@ import { Button } from "./ui/button";
 
 const Navbar = () => {
   return (
-    <nav className="w-full flex items-center justify-between container mx-auto mt-6 bg-white/90 px-4 py-4 backdrop-blur-lg dark:bg-gray-900/90 shadow-md rounded-full sticky top-0 z-50">
+    <nav className="w-full flex items-center justify-between container mx-auto px-5 mt-0 md:mt-6 bg-white/90 py-4 backdrop-blur-lg dark:bg-gray-900/90 shadow-md md:rounded-full sticky top-0 z-50">
       <div>
-        <Image src="/logo.png" alt="Logo" width={180} height={90} />
+        <Image src="/logo.png" alt="Logo" width={170} height={90} />
       </div>
-      <NavigationMenu>
+      <NavigationMenu className="hidden md:block">
         <NavigationMenuList>
           <NavigationMenuItem>
             <NavigationMenuLink asChild className="text-base">

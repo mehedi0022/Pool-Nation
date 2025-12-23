@@ -12,7 +12,7 @@ import ScrollToTop from "./ScrollToTop";
 
 const Faq = () => {
   return (
-    <div className="container mx-auto px-10 py-10 flex gap-10">
+    <div className="container mx-auto px-10 py-10 flex flex-col md:flex-row gap-10">
       <div className="basis-1/2">
         <CustomButton text="FAQ's" />
         <h1>Frequently Ask Questions</h1>
@@ -38,7 +38,7 @@ const Faq = () => {
         </div>
       </div>
 
-      <div className="basis-1/2 relative">
+      <div className="basis-1/2 relative hidden md:block">
         <div className="">
           <Image
             src="/Dashboard.jpg"

@@ -7,7 +7,7 @@ const WhyJoinUs = () => {
   return (
     <>
       <div className="bg-[#ffffff] dark:bg-gray-900/90 py-10">
-        <div className="container mx-auto px-10 flex gap-10 mt-20">
+        <div className="container mx-auto px-10 flex flex-col md:flex-row gap-5 md:gap-10 mt-10 md:mt-20">
           <div className="flex flex-col items-end basis-[40%]">
             <CustomButton text="Pool Pros" />
             <h2>Why Join Pool Pro!</h2>
@@ -59,10 +59,12 @@ const WhyJoinUs = () => {
       <div className="container mx-auto px-10 mt-10">
         <div className="flex flex-col items-center justify-center my-10">
           <CustomButton text="Why Join With Us" />
-          <h1>Manage Everything For You!</h1>
+          <h1 className="text-center text-sm font-bold">
+            Manage Everything For You!
+          </h1>
         </div>
 
-        <div className="grid grid-cols-3 gap-10 mt-20 content-center">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-10 mt-10 md:mt-20 content-center">
           <div>
             <div className="flex flex-col gap-6">
               {features.slice(0, 4).map((feature, index) => (
@@ -79,8 +81,8 @@ const WhyJoinUs = () => {
                     />
                   </div>
                   <div>
-                    <h2>{feature.title}</h2>
-                    <p>{feature.description}</p>
+                    <h2 className="text-xl font-bold">{feature.title}</h2>
+                    <p className="text-sm">{feature.description}</p>
                   </div>
                 </div>
               ))}
@@ -107,6 +109,7 @@ const WhyJoinUs = () => {
               />
             </div>
           </div>
+
           <div>
             <div className="flex flex-col gap-6">
               {features.slice(4, 8).map((feature, index) => (
@@ -123,8 +126,8 @@ const WhyJoinUs = () => {
                     />
                   </div>
                   <div>
-                    <h2>{feature.title}</h2>
-                    <p>{feature.description}</p>
+                    <h2 className="text-xl font-bold">{feature.title}</h2>
+                    <p className="text-sm">{feature.description}</p>
                   </div>
                 </div>
               ))}
