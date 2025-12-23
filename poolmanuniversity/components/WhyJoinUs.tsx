@@ -6,55 +6,57 @@ import features from "@/assets/data/whyJoinUs.json";
 const WhyJoinUs = () => {
   return (
     <>
-      <div className="container mx-auto flex gap-10 mt-20">
-        <div className="flex flex-col items-end basis-[40%]">
-          <CustomButton text="Pool Pros" />
-          <h2>Why Join Pool Pro!</h2>
-          <p className="text-end">
-            Pool Man University’s web platform and app offer a seamless way for
-            business owners to enhance their team’s skills. Add your employees,
-            assign relevant courses tailored to their roles, and monitor their
-            progress through interactive quizzes.
-          </p>
-          <div></div>
-          <Button className="mt-6">Join Now</Button>
-        </div>
+      <div className="bg-[#ffffff] dark:bg-gray-900/90 py-10">
+        <div className="container mx-auto px-10 flex gap-10 mt-20">
+          <div className="flex flex-col items-end basis-[40%]">
+            <CustomButton text="Pool Pros" />
+            <h2>Why Join Pool Pro!</h2>
+            <p className="text-end">
+              Pool Man University’s web platform and app offer a seamless way
+              for business owners to enhance their team’s skills. Add your
+              employees, assign relevant courses tailored to their roles, and
+              monitor their progress through interactive quizzes.
+            </p>
+            <div></div>
+            <Button className="mt-6">Join Now</Button>
+          </div>
 
-        <div className="relative basis-[20%] w-full flex items-center justify-center">
-          {/* Background image */}
-          <Image
-            src="/why-join-us-bg.jpg"
-            alt="Background"
-            fill
-            className="object-cover rounded-xl"
-            priority
-          />
+          <div className="relative basis-[20%] w-full flex items-center justify-center">
+            {/* Background image */}
+            <Image
+              src="/why-join-us-bg.jpg"
+              alt="Background"
+              fill
+              className="object-cover rounded-xl"
+              priority
+            />
 
-          {/* Main subject image */}
-          <Image
-            src="/Edgar-De-min.png"
-            alt="Feature"
-            width={200}
-            height={100}
-            className="overflow-hidden z-10"
-          />
-        </div>
+            {/* Main subject image */}
+            <Image
+              src="/Edgar-De-min.png"
+              alt="Feature"
+              width={200}
+              height={100}
+              className="overflow-hidden z-10"
+            />
+          </div>
 
-        <div className="basis-[40%]">
-          <CustomButton text="Company" />
-          <h2>Why Join Pool Pro!</h2>
-          <p>
-            Pool Man University’s web platform and app offer a seamless way for
-            business owners to enhance their team’s skills. Add your employees,
-            assign relevant courses tailored to their roles, and monitor their
-            progress through interactive quizzes.
-          </p>
+          <div className="basis-[40%]">
+            <CustomButton text="Company" />
+            <h2>Why Join Pool Pro!</h2>
+            <p>
+              Pool Man University’s web platform and app offer a seamless way
+              for business owners to enhance their team’s skills. Add your
+              employees, assign relevant courses tailored to their roles, and
+              monitor their progress through interactive quizzes.
+            </p>
 
-          <Button className="mt-6">Join Now</Button>
+            <Button className="mt-6">Join Now</Button>
+          </div>
         </div>
       </div>
 
-      <div className="container mx-auto mt-10">
+      <div className="container mx-auto px-10 mt-10">
         <div className="flex flex-col items-center justify-center my-10">
           <CustomButton text="Why Join With Us" />
           <h1>Manage Everything For You!</h1>

@@ -6,7 +6,7 @@ import { Button } from "./ui/button";
 
 const PricingPlans = () => {
   return (
-    <div className="container mx-auto my-10">
+    <div className="container mx-auto my-10 px-10">
       <div className="flex flex-col items-center justify-center my-10">
         <CustomButton text="Pricing Plans" />
         <h1>Choose The Plans That Suits You!</h1>

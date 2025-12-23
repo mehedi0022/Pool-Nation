@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 
 const MembershipTiers = () => {
   return (
-    <div className="container mx-auto grid grid-cols-2 gap-5 mt-20 mb-6">
+    <div className="container mx-auto px-10 grid grid-cols-2 gap-5 mt-20 mb-6">
       <div className="flex gap-4">
         {membership.map((membership_package, index) => (
           <div

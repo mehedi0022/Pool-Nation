@@ -1,0 +1,18 @@
+[
+  {
+    "question": "What is the purpose of the Manage Employee feature?",
+    "answer": "The “Manage Employee” feature allows administrators to efficiently add, organize, and monitor employee information, ensuring streamlined workforce management."
+  },
+  {
+    "question": "How can I access the Education Courses?",
+    "answer": "Once logged in, navigate to the “Education Courses” section from the main dashboard to explore and enroll in available learning modules designed to enhance your skills."
+  },
+  {
+    "question": "Are the Training Videos available for all users?",
+    "answer": "Yes, all registered users have access to our comprehensive library of training videos, covering various topics to support continuous learning"
+  },
+  {
+    "question": "How do the Quizzes work?",
+    "answer": "Quizzes are designed to test your understanding of the course material. After completing a course or training video, you can take the corresponding quiz to assess your knowledge."
+  }
+]
