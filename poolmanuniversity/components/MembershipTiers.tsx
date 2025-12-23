@@ -12,9 +12,9 @@ const MembershipTiers = () => {
               key={index}
               className="border p-4 rounded-2xl shadow dark:bg-gray-900/90 bg-[#FAF8FF]"
             >
-              <h2>{membership_package.title}</h2>
+              <h3>{membership_package.title}</h3>
               <h1>${membership_package.price_per_month}/Month</h1>
-              <p>{membership_package.description}</p>
+              <h4 className="mt-2">{membership_package.description}</h4>
               <hr className="my-4" />
               <ul className="space-y-1.5">
                 {membership_package.features?.map((feature, index) => (
@@ -60,7 +60,7 @@ const MembershipTiers = () => {
         </div>
 
         <div>
-          <h2 className="mb-4">Membership Tiers</h2>
+          <h3 className="mb-4">Membership Tiers</h3>
           <h1 className="mb-4">Ready to Transform Your Pool Business?</h1>
           <p className="mb-4">
             Join the fastest-growing community of pool professionals mastering
@@ -89,9 +89,9 @@ const MembershipTiers = () => {
             </li>
           </ul>
 
-          <h2 className="">
+          <h3 className="">
             Your growth starts here — pick your plan and begin your journey.
-          </h2>
+          </h3>
         </div>
       </div>
     </div>

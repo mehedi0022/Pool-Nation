@@ -22,24 +22,24 @@ const HowItWorks = () => {
           />
           <div className="flex flex-col gap-2.5 justify-start items-center px-5 min-h-[120px] md:min-h-[180px] max-w-[300px] mx-auto">
             <CustomButton text="Step 1" />
-            <h2>Choose Your Package</h2>
-            <h3 className="text-center">
+            <h3>Choose Your Package</h3>
+            <h4 className="text-center">
               Explore and select the perfect plan tailored to your needs
-            </h3>
+            </h4>
           </div>
           <div className="flex flex-col gap-2.5 justify-start md:justify-end items-center px-5 min-h-[120px] md:min-h-[180px] max-w-[300px] mx-auto">
             <CustomButton text="Step 2" />
-            <h2>Create Account</h2>
-            <h3 className="text-center">
+            <h3>Create Account</h3>
+            <h4 className="text-center">
               Sign up quickly to unlock exclusive features
-            </h3>
+            </h4>
           </div>
           <div className="flex flex-col gap-2.5 justify-start items-center px-5 min-h-[120px] md:min-h-[180px] max-w-[300px] mx-auto">
             <CustomButton text="Step 3" />
-            <h2>Install App & Enjoy</h2>
-            <h3 className="text-center">
+            <h3>Install App & Enjoy</h3>
+            <h4 className="text-center">
               Download the app and start your journey effortlessly!
-            </h3>
+            </h4>
           </div>
         </div>
       </div>

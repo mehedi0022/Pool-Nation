@@ -10,8 +10,8 @@ const WhyJoinUs = () => {
         <div className="container mx-auto px-10 flex flex-col md:flex-row gap-5 md:gap-10 mt-10 md:mt-20">
           <div className="flex flex-col items-end basis-[40%]">
             <CustomButton text="Pool Pros" />
-            <h2>Why Join Pool Pro!</h2>
-            <p className="text-end">
+            <h3 className="my-2">Why Join Pool Pro!</h3>
+            <p className="text-sm md:text-base text-end">
               Pool Man University’s web platform and app offer a seamless way
               for business owners to enhance their team’s skills. Add your
               employees, assign relevant courses tailored to their roles, and
@@ -43,8 +43,8 @@ const WhyJoinUs = () => {
 
           <div className="basis-[40%]">
             <CustomButton text="Company" />
-            <h2>Why Join Pool Pro!</h2>
-            <p>
+            <h3 className="my-2">Why Join Pool Pro!</h3>
+            <p className="text-sm md:text-base text-start">
               Pool Man University’s web platform and app offer a seamless way
               for business owners to enhance their team’s skills. Add your
               employees, assign relevant courses tailored to their roles, and
@@ -56,7 +56,7 @@ const WhyJoinUs = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-10 mt-10">
+      <div className="container mx-auto px-5 md:px-10 mt-10">
         <div className="flex flex-col items-center justify-center my-10">
           <CustomButton text="Why Join With Us" />
           <h1 className="text-center text-sm font-bold">
@@ -81,7 +81,7 @@ const WhyJoinUs = () => {
                     />
                   </div>
                   <div>
-                    <h2 className="text-xl font-bold">{feature.title}</h2>
+                    <h3 className="text-xl font-bold">{feature.title}</h3>
                     <p className="text-sm">{feature.description}</p>
                   </div>
                 </div>
@@ -126,7 +126,7 @@ const WhyJoinUs = () => {
                     />
                   </div>
                   <div>
-                    <h2 className="text-xl font-bold">{feature.title}</h2>
+                    <h3 className="text-xl font-bold">{feature.title}</h3>
                     <p className="text-sm">{feature.description}</p>
                   </div>
                 </div>
