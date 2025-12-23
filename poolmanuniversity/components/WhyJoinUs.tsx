@@ -1,10 +1,7 @@
 import CustomButton from "./ui/CustomButton";
 import Image from "next/image";
 import { Button } from "./ui/button";
-
 import features from "@/assets/data/whyJoinUs.json";
-
-import edgar from "@/public/Edgar-De-min.png";
 
 const WhyJoinUs = () => {
   return (
