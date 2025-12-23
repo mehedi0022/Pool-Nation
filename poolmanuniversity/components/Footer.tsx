@@ -114,7 +114,7 @@ const Footer = () => {
               <div className="flex w-full items-center gap-2 mt-4">
                 <form action="" className="flex w-full gap-2.5">
                   <Input
-                    className="w-full"
+                    className="w-full z-50"
                     type="email"
                     placeholder="Email Address"
                     required
@@ -122,7 +122,7 @@ const Footer = () => {
                   <Button
                     type="submit"
                     variant="outline"
-                    className="cursor-pointer"
+                    className="cursor-pointer z-50"
                   >
                     Subscribe
                   </Button>
