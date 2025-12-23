@@ -21,7 +21,7 @@ const PricingPlans = () => {
         {pricing.map((plans, index) => (
           <div
             key={index}
-            className="border shadow-md p-6 rounded-xl flex flex-col justify-between"
+            className="border dark:bg-gray-900/90 bg-[#FAF8FF] shadow-md p-6 rounded-xl flex flex-col justify-between"
           >
             <div>
               <h2 className="my-2">{plans.title}</h2>
@@ -42,7 +42,9 @@ const PricingPlans = () => {
             </div>
 
             <div>
-              <Button className="w-full mt-6">Register Now!</Button>
+              <Button className="w-full mt-6" asChild>
+                <a href={plans.purchase_link}>Register Now!</a>
+              </Button>
             </div>
           </div>
         ))}

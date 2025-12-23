@@ -4,7 +4,7 @@
     "description": "There are many variations of passages of Lorem Ipsum available, but the majority have",
     "price_per_month": 0,
     "price_per_year": 0,
-    "purchase_link": "#",
+    "purchase_link": "https://business.poolmanuniversity.com/individual/sign-up?package_id=1",
     "features": [
       "Training Videos",
       "Education Courses",
@@ -18,7 +18,7 @@
     "description": "There are many variations of passages of Lorem Ipsum available, but the majority have",
     "price_per_month": 25,
     "price_per_year": 22,
-    "purchase_link": "#",
+    "purchase_link": "https://business.poolmanuniversity.com/individual/sign-up?package_id=2",
     "features": [
       "Premium Video Content",
       "Business Tools and Tracking",
@@ -35,7 +35,7 @@
     "description": "There are many variations of passages of Lorem Ipsum available, but the majority have",
     "price_per_month": 80,
     "price_per_year": 75,
-    "purchase_link": "#",
+    "purchase_link": "https://business.poolmanuniversity.com/company/sign-up?package_id=5",
     "features": [
       "Upto 3 Free Employee Accounts",
       "Chat",

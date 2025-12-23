@@ -7,7 +7,10 @@ const MembershipTiers = () => {
     <div className="container mx-auto grid grid-cols-2 gap-5 mt-20 mb-6">
       <div className="flex gap-4">
         {membership.map((membership_package, index) => (
-          <div key={index} className="border p-4 rounded-2xl shadow">
+          <div
+            key={index}
+            className="border p-4 rounded-2xl shadow dark:bg-gray-900/90 bg-[#FAF8FF]"
+          >
             <h2>{membership_package.title}</h2>
             <h1>${membership_package.price_per_month}/Month</h1>
             <p>{membership_package.description}</p>

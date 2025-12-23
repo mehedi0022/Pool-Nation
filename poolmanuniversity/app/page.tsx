@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import HowItWorks from "@/components/HowItWorks";
 import MembershipTiers from "@/components/MembershipTiers";
 import PricingPlans from "@/components/PricingPlans";
 import Sponsors from "@/components/Sponsors";
@@ -12,6 +13,7 @@ export default function Home() {
       <MembershipTiers />
       <WhyJoinUs />
       <PricingPlans />
+      <HowItWorks />
     </>
   );
 }

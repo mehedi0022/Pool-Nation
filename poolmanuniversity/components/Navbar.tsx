@@ -11,7 +11,7 @@ import { Button } from "./ui/button";
 
 const Navbar = () => {
   return (
-    <nav className="w-full flex items-center justify-between container mx-auto mt-6 bg-white/90 px-4 py-4 backdrop-blur-md dark:bg-gray-900/90 shadow-md rounded-full sticky top-0 z-50">
+    <nav className="w-full flex items-center justify-between container mx-auto mt-6 bg-white/90 px-4 py-4 backdrop-blur-lg dark:bg-gray-900/90 shadow-md rounded-full sticky top-0 z-50">
       <div>
         <Image src="/logo.png" alt="Logo" width={180} height={90} />
       </div>

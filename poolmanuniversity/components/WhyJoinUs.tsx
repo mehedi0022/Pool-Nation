@@ -65,9 +65,12 @@ const WhyJoinUs = () => {
 
         <div className="grid grid-cols-3 gap-10 mt-20 content-center">
           <div>
-            <div className="flex flex-col gap-10">
+            <div className="flex flex-col gap-6">
               {features.slice(0, 4).map((feature, index) => (
-                <div key={index} className="flex flex-row gap-3">
+                <div
+                  key={index}
+                  className="flex gap-3 justify-center items-center dark:bg-gray-900/90 bg-[#FAF8FF] py-2 px-4 border shadow rounded-md"
+                >
                   <div>
                     <Image
                       src={feature.icon}
@@ -106,9 +109,12 @@ const WhyJoinUs = () => {
             </div>
           </div>
           <div>
-            <div className="flex flex-col gap-10">
+            <div className="flex flex-col gap-6">
               {features.slice(4, 8).map((feature, index) => (
-                <div key={index} className="flex gap-3">
+                <div
+                  key={index}
+                  className="flex gap-3 justify-center items-center dark:bg-gray-900/90 bg-[#FAF8FF] py-2 px-4 border shadow rounded-md"
+                >
                   <div>
                     <Image
                       src={feature.icon}
