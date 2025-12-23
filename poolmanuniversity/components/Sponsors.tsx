@@ -30,7 +30,7 @@ const Sponsors = () => {
               src={item.url}
               alt={item.name}
               width={150}
-              height={100}
+              height={60}
               className="rounded-xl border shadow-md my-4"
             />
           ))}
@@ -47,7 +47,7 @@ const Sponsors = () => {
               src={item.url}
               alt={item.name}
               width={150}
-              height={100}
+              height={60}
               className="rounded-xl border shadow-md my-4"
             />
           ))}
