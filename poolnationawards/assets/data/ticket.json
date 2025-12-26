@@ -1,0 +1,32 @@
+{
+  "id": "ticket_001",
+  "title": "Awards Ticket",
+  "description": "Join us on October 23, 2025, for the Pool Nation Awards 2025 — a night celebrating excellence, innovation, and the brightest talents in the pool industry.",
+  "price": 99.99,
+  "offer_price": 70.0,
+  "currency": "USD",
+  "terms_and_conditions": "Non-refundable. Valid for one entry only.",
+  "image_url": "https://example.com/images/concert_ticket.png",
+  "category": "Events",
+  "tags": ["concert", "music", "event"],
+  "availability": {
+    "total": 1000,
+    "sold": 250,
+    "remaining": 750
+  },
+  "seller": {
+    "name": "EventCorp",
+    "contact_email": "contact@eventcorp.com",
+    "contact_phone": "+1-800-123-4567",
+    "address": "123 Event St, Cityville, Country"
+  },
+  "features": [
+    { "name": "VIP Access", "enabled": true },
+    { "name": "Free Merchandise", "enabled": true },
+    { "name": "Lunch Included", "enabled": true },
+    { "name": "Access to After-Party", "enabled": true },
+    { "name": "Digital Ticket Option", "enabled": true },
+    { "name": "Family Package Available", "enabled": false },
+    { "name": "Group Discounts", "enabled": false }
+  ]
+}

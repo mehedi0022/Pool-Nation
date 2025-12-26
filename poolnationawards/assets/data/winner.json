@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "year": 2025,
+    "name": "Maria Castellanos",
+    "category": "Pool Girl of the Year",
+    "image": "/img/nominee/Maria-Castellanos.jpg",
+    "winner": true
+  },
+  {
+    "id": 2,
+    "year": 2024,
+    "name": "Miguel Cabello",
+    "category": "Pool Guy of the Year",
+    "image": "/img/nominee/Miguel-Cabello.jpg",
+    "winner": true
+  },
+  {
+    "id": 3,
+    "year": 2024,
+    "name": "Lauren Broom",
+    "category": "Trainer of the Year",
+    "image": "/img/nominee/Lauren-Broom.jpg",
+    "winner": true
+  },
+  {
+    "id": 4,
+    "year": 2021,
+    "name": "Alicia Stephens",
+    "category": "Hall of Fame",
+    "image": "/img/nominee/Alicia-Stephens.jpg",
+    "winner": true
+  },
+  {
+    "id": 5,
+    "year": 2022,
+    "name": "Makenzi Kinder",
+    "category": "30 Under 40 Female",
+    "image": "/img/nominee/Makenzi-Kinder.jpg",
+    "winner": true
+  },
+  {
+    "id": 6,
+    "year": 2021,
+    "name": "Nick LaPointe",
+    "category": "30 Under 40 Male ",
+    "image": "/img/nominee/Nick-LaPointe.jpg",
+    "winner": true
+  },
+  {
+    "id": 7,
+    "year": 2024,
+    "name": "Nick LaPointe",
+    "category": "30 Under 40 Male ",
+    "image": "/img/nominee/Nick-LaPointe.jpg",
+    "winner": true
+  },
+  {
+    "id": 8,
+    "year": 2025,
+    "name": "Maria Castellanos",
+    "category": "Pool Girl of the Year",
+    "image": "/img/nominee/Maria-Castellanos.jpg",
+    "winner": true
+  },
+  {
+    "id": 9,
+    "year": 2023,
+    "name": "Maria Castellanos",
+    "category": "Pool Girl of the Year",
+    "image": "/img/nominee/Maria-Castellanos.jpg",
+    "winner": true
+  },
+  {
+    "id": 9,
+    "year": 2021,
+    "name": "Maria Castellanos",
+    "category": "Pool Girl of the Year",
+    "image": "/img/nominee/Maria-Castellanos.jpg",
+    "winner": true
+  },
+  {
+    "id": 9,
+    "year": 2020,
+    "name": "Maria Castellanos",
+    "category": "Pool Girl of the Year",
+    "image": "/img/nominee/Maria-Castellanos.jpg",
+    "winner": true
+  }
+]

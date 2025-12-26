@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Recognition",
+    "description": "The Pool Nation Awards provide a platform to acknowledge and celebrate the exceptional achievements and innovations within the pool industry. Attending the event is a chance to be recognized for your hard work and dedication, boosting your professional reputation and showcasing your commitment to excellence.",
+    "image": "/icons/recognition.svg"
+  },
+  {
+    "id": 2,
+    "title": "Celebrate with Pool Pros",
+    "description": "This event is a fantastic opportunity to celebrate with and connect to other pool professionals from across the globe. Engage in meaningful conversations, share experiences, and build valuable relationships with industry leaders, influencers, and peers. Networking at this level can lead to new collaborations, partnerships, and friendships that can enrich your professional journey.",
+    "image": "/icons/celebrate.svg"
+  },
+  {
+    "id": 3,
+    "title": "Celebrate at the After Party",
+    "description": "After the awards ceremony, join us for an unforgettable after party!It's the perfect chance to unwind, celebrate the successes of the night, and enjoy a fun, relaxed atmosphere with your fellow pool pros. The after-party promises great music, entertainment, and the opportunity to continue networking in a more informal setting.",
+    "image": "/icons/party.svg"
+  }
+]

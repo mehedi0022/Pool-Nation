@@ -14,12 +14,12 @@ const ThemeToggle = () => {
       size="icon"
       onClick={() => setTheme(currentTheme === "dark" ? "light" : "dark")}
       aria-label="Toggle theme"
-      className="cursor-pointer"
+      className="rounded-full cursor-pointer"
     >
       {currentTheme === "dark" ? (
-        <Sun className="h-5 w-5 transition-transform duration-300" />
+        <Sun className="h-8 w-8 transition-transform duration-300" />
       ) : (
-        <Moon className="h-5 w-5 transition-transform duration-300" />
+        <Moon className="h-8 w-8 transition-transform duration-300" />
       )}
     </Button>
   );
