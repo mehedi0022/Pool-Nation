@@ -21,19 +21,19 @@ const PreviousYearWinner = () => {
           Select a year to view the winners. If no winners are displayed, it
           means there were no awards given that year.
         </p>
-        <div className="relative">
+        <div className="max-w-6xl mx-auto mb-10 px-5">
           <Swiper
-            slidesPerView={6.5}
+            slidesPerView={6}
             spaceBetween={20}
             freeMode={true}
             modules={[FreeMode]}
             className="w-full"
             breakpoints={{
-              480: { slidesPerView: 3.5 },
-              768: { slidesPerView: 4.5 },
-              1024: { slidesPerView: 5.5 },
-              1280: { slidesPerView: 5.5 },
-              1536: { slidesPerView: 6.5 },
+              480: { slidesPerView: 3 },
+              768: { slidesPerView: 4 },
+              1024: { slidesPerView: 5 },
+              1280: { slidesPerView: 5 },
+              1536: { slidesPerView: 6 },
             }}
           >
             {["2026", "2025", "2024", "2023", "2022", "2021", "2020"].map(
@@ -41,10 +41,10 @@ const PreviousYearWinner = () => {
                 <SwiperSlide key={year}>
                   <div
                     onClick={() => setActiveYear(year)}
-                    className={`px-6 py-2.5 border rounded-md cursor-pointer hover:bg-linear-to-t from-[#ffffff] dark:from-[#0a0118] to-[#eef1e8] dark:to-[#2b2338] transition-all duration-300 ${
+                    className={`px-6 py-2.5 border rounded-md cursor-pointer text-base font-semibold ${
                       activeYear === year
-                        ? "bg-linear-to-t from-[#ffffff] dark:from-[#0a0118] to-[#eef1e8] dark:to-[#2b2338]  border"
-                        : "border hover:bg-card hover:border-secondary"
+                        ? "bg-linear-to-t from-[#483B5E] dark:from-[#0a0118] to-[#1F0349] dark:to-[#2b2338] text-white transition-all duration-300"
+                        : "hover:text-white hover:bg-linear-to-t from-[#483B5E] dark:from-[#0a0118] to-[#1F0349] dark:to-[#2b2338]"
                     }`}
                   >
                     <h3 className="text-center">{year}</h3>
@@ -56,7 +56,7 @@ const PreviousYearWinner = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-10 py-20">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-10 pb-10">
         {winner.filter((item) => item.year === parseInt(activeYear)).length ===
           0 && (
           <p className="text-center col-span-4">
@@ -70,16 +70,16 @@ const PreviousYearWinner = () => {
               key={item.id}
               className="border border-border-primary rounded-2xl overflow-hidden"
             >
-              <div className="bg-linear-to-t from-[#ffffff] dark:from-[#0a0118] to-[#eef1e8] dark:to-[#2b2338] px-5 py-4">
-                <h3 className=" text-xl font-bold">{item.name}</h3>
-                <p className=" text-lg">{item.category}</p>
-              </div>
               <Image
                 src={item.image}
                 alt={item.name}
                 width={1066}
                 height={1066}
               />
+              <div className="bg-linear-to-t from-[#ffffff] dark:from-[#0a0118] to-[#eef1e8] dark:to-[#2b2338] px-5 py-4">
+                <h3 className=" text-xl font-bold">{item.name}</h3>
+                <p className=" text-lg">{item.category}</p>
+              </div>
             </div>
           ))}
       </div>

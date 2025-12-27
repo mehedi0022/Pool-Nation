@@ -1,0 +1,56 @@
+{
+  "title": "HASA After Party",
+  "description": "Join us as we celebrate the Pool Nation Awards in style at the official HASA After Party! Thanks to our Platinum Sponsor, HASA, we’re bringing the fun, music, and networking to keep the night going",
+  "host": "HASA",
+  "date": "March 15, 2025",
+  "time": "8:00 PM - Midnight",
+  "location": {
+    "name": "The Cue Lounge",
+    "address": "Alle Lounge on 66, Conrad Las Vegas at Resorts World 111 Resorts World Ave, Las Vegas, NV 89109"
+  },
+  "images": [
+    {
+      "url": "/img/afterparty/1.jpg",
+      "alt": "After Party Crowd"
+    },
+    {
+      "url": "/img/afterparty/2.jpg",
+      "alt": "Live DJ at After Party"
+    },
+    {
+      "url": "/img/afterparty/3.jpg",
+      "alt": "Live DJ at After Party"
+    },
+    {
+      "url": "/img/afterparty/4.jpg",
+      "alt": "Live DJ at After Party"
+    },
+    {
+      "url": "/img/afterparty/1.webp",
+      "alt": "Live DJ at After Party"
+    }
+  ],
+  "highlights": [
+    "Live DJ and Dance Floor",
+    "Complimentary Drinks and Snacks",
+    "Meet and Greet with Award Winners",
+    "Fun Pool Games and Prizes"
+  ],
+  "ticketInfo": {
+    "price": "$50 per person",
+    "purchaseLink": "https://www.poolnationawards.com/after-party-tickets"
+  },
+  "dressCode": "Casual Chic",
+  "sponsors": [
+    {
+      "name": "CueMaster Billiards",
+      "logo": "/assets/images/sponsors/cuemaster.png",
+      "website": "https://www.cuemaster.com"
+    },
+    {
+      "name": "Spin & Win Drinks",
+      "logo": "/assets/images/sponsors/spinandwin.png",
+      "website": "https://www.spinandwin.com"
+    }
+  ]
+}

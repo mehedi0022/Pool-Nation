@@ -10,9 +10,11 @@ export const Hero = () => {
         autoPlay
         loop
         muted
-        className="absolute w-full min-h-full max-w-none -z-10 opacity-85"
+        className="absolute w-full min-h-full max-w-none -z-10"
       ></video>
-      <div className="absolute w-full min-h-full max-w-none -z-9 bg-linear-to-t from-[#1b1b1d] dark:from-[#0A0118] from-0% to-transparent opacity-100 "></div>
+      
+
+      <div className="absolute w-full min-h-full max-w-none -z-5 bg-linear-to-t from-[#000000] dark:from-[#0A0118] from-0% to-[#0000000] opacity-100 "></div>
 
       <div className="flex justify-center gap-20 items-center">
         <div>
