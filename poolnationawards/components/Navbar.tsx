@@ -28,10 +28,8 @@ const Navbar = () => {
 
         <div className="flex justify-end items-center space-x-4">
           <ThemeToggle />
-          <Button size="lg" className="rounded-full">
-            Sign In
-          </Button>
-          <Button variant="outline" size="lg" className="rounded-full">
+          <Button size="lg">Sign In</Button>
+          <Button variant="outline" size="lg">
             Sign Up
           </Button>
         </div>

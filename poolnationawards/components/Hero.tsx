@@ -12,7 +12,6 @@ export const Hero = () => {
         muted
         className="absolute w-full min-h-full max-w-none -z-10"
       ></video>
-      
 
       <div className="absolute w-full min-h-full max-w-none -z-5 bg-linear-to-t from-[#000000] dark:from-[#0A0118] from-0% to-[#0000000] opacity-100 "></div>
 
@@ -29,16 +28,16 @@ export const Hero = () => {
             Leadership in the Pool Industry
           </p>
           <div className="mt-5 flex gap-5">
-            <Button size="lg" className="rounded-full">
+            <Button size="lg" variant="default">
               Nominate Now
             </Button>
-            <Button size="lg" variant="outline" className=" rounded-full">
+            <Button size="lg" variant="outline">
               Learn More
             </Button>
           </div>
         </div>
 
-        <div className="max-w-100 border bg-white/80 dark:bg-gray-900/80 backdrop-blur-md px-5 py-5 rounded-lg">
+        <div className="max-w-100 border bg-linear-to-t from-[#ece4e4] dark:from-[#0a0118] to-[#afdfeb] dark:to-[#2b2338] backdrop-blur-md px-5 py-5 rounded-lg">
           <h2 className="text-4xl font-bold my-4">{ticket.title}</h2>
           <p className="mb-4">{ticket.description}</p>
           <ul>
@@ -58,7 +57,9 @@ export const Hero = () => {
           </del>{" "}
           <span className="text-5xl font-bold">{ticket.offer_price}</span>{" "}
           <span className="text-sm">{ticket.currency}</span>
-          <Button className="w-full rounded-full mt-6">Get Ticket Now</Button>
+          <Button className="w-full mt-6" variant="outline">
+            Get Ticket Now
+          </Button>
         </div>
       </div>
     </div>
