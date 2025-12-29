@@ -4,26 +4,26 @@ import { Button } from "./ui/button";
 
 export const Hero = () => {
   return (
-    <div className="relative flex items-center justify-center overflow-hidden py-20">
+    <div className="relative flex flex-col md:flex-row items-center justify-center overflow-hidden px-5 py-10 md:py-20">
       <video
         src="/pool-nation-awards-2025.mp4"
         autoPlay
         loop
         muted
-        className="absolute w-full min-h-full max-w-none -z-10"
+        className="absolute w-full min-h-full max-w-none -z-10 object-cover"
       ></video>
 
       <div className="absolute w-full min-h-full max-w-none -z-5 bg-linear-to-t from-[#000000] dark:from-[#0A0118] from-0% to-[#0000000] opacity-100 "></div>
 
-      <div className="flex justify-center gap-20 items-center">
+      <div className="flex flex-col md:flex-row justify-center gap-10 md:gap-20 items-center">
         <div>
           <button className="text-white py-1 px-4 rounded-full border">
             Welcome to The
           </button>
-          <h1 className="text-6xl text-white font-bold my-4">
+          <h1 className="text-4xl md:text-6xl text-white font-bold my-4">
             Pool Nation® Awards {new Date().getFullYear()}
           </h1>
-          <p className="text-white text-xl">
+          <p className="text-white text-base md:text-xl">
             A Nation of Pool Pros ™ <br /> Recognizing Dedication, Skill, and
             Leadership in the Pool Industry
           </p>

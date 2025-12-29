@@ -15,7 +15,7 @@ import { Button } from "./ui/button";
 const PictureGallery = () => {
   const [activeYear, setActiveYear] = useState("2025");
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto px-5 py-10 md:py-20">
       <div>
         <h2 className="text-3xl md:text-4xl font-bold text-center my-5">
           Picture Gallery
@@ -23,7 +23,7 @@ const PictureGallery = () => {
         <p className="text-center mb-10">Previous Year Picture.</p>
         <div className="max-w-5xl mx-auto mb-10">
           <Swiper
-            slidesPerView={5}
+            slidesPerView={3}
             spaceBetween={20}
             freeMode={true}
             modules={[FreeMode]}
@@ -88,13 +88,13 @@ const PictureGallery = () => {
                   className="w-full"
                 >
                   {item.thumbnail.map((thumb, index) => (
-                    <SwiperSlide key={index} className="w-75 md:w-95">
+                    <SwiperSlide key={index} className="w-85 md:w-95">
                       <Image
                         src={thumb.url}
                         alt={thumb.alt}
                         width={400}
                         height={400}
-                        className="rounded-xl shadow-md object-cover w-full h-100"
+                        className="rounded-xl shadow-md object-cover w-full h-95 md:h-100"
                       />
                     </SwiperSlide>
                   ))}

@@ -13,7 +13,7 @@ const PreviousYearWinner = () => {
   const [activeYear, setActiveYear] = useState("2025");
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto px-5 py-10 md:py-20">
       <div>
         <h2 className="text-3xl md:text-4xl font-bold text-center my-5">
           Previous Year Winners
@@ -24,8 +24,8 @@ const PreviousYearWinner = () => {
         </p>
         <div className="max-w-5xl mx-auto mb-10">
           <Swiper
-            slidesPerView={5}
-            spaceBetween={20}
+            slidesPerView={3}
+            spaceBetween={12}
             freeMode={true}
             modules={[FreeMode]}
             className="w-full flex justify-center items-center"
@@ -54,7 +54,7 @@ const PreviousYearWinner = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-10 pb-10">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-5 md:gap-10">
         {winner.filter((item) => item.year === parseInt(activeYear)).length ===
           0 && (
           <p className="text-center col-span-4">
@@ -74,9 +74,9 @@ const PreviousYearWinner = () => {
                 width={1066}
                 height={1066}
               />
-              <div className="bg-linear-to-t from-[#ffffff] dark:from-[#0a0118] to-[#eef1e8] dark:to-[#2b2338] px-5 py-4">
-                <h3 className=" text-xl font-bold">{item.name}</h3>
-                <p className=" text-lg">{item.category}</p>
+              <div className="bg-linear-to-t from-[#ffffff] dark:from-[#0a0118] to-[#eef1e8] dark:to-[#2b2338] px-2 md:px-5 py-3 md:py-4">
+                <h3 className="text-base md:text-xl font-bold">{item.name}</h3>
+                <p className="text-base md:text-lg">{item.category}</p>
               </div>
             </div>
           ))}

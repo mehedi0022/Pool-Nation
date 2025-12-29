@@ -5,12 +5,12 @@ import { Button } from "./ui/button";
 const Footer = () => {
   return (
     <div className="bg-[#F7F7FB] border-t border-gray-200 dark:bg-[#0a0118] dark:border-gray-700">
-      <div className="container mx-auto">
-        <div className="max-w-260 mx-auto mb-10 -mt-20">
-          <div className="bg-linear-to-b from-[#F6F5FA] to-white dark:bg-linear-to-t dark:from-[#0a0118] dark:to-[#2b2338] border px-5 py-10 rounded-2xl shadow">
+      <div className="container mx-auto px-5">
+        <div className="max-w-260 mx-auto mb-10 -mt-10 md:-mt-20">
+          <div className="bg-linear-to-b from-[#F6F5FA] to-white dark:bg-linear-to-t dark:from-[#0a0118] dark:to-[#2b2338] border px-5 py-5 rounded-2xl shadow">
             <h1 className="text-3xl font-bold text-center">Our Sponsors</h1>
 
-            <div className="flex flex-wrap justify-center gap-4 mt-5">
+            <div className="flex flex-wrap justify-center gap-2 md:gap-4 mt-5">
               <Image
                 src="/img/logo/AquaStar2.png"
                 alt="Sponsors"
@@ -76,13 +76,11 @@ const Footer = () => {
                 className="border rounded-md"
               />
             </div>
-
-            
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr] gap-10 mb-10">
-          <div>
+        <div className="flex flex-col md:flex-row gap-5 md:gap-10 mb-10">
+          <div className="basis-[40%]">
             <Image
               src="/logo.png"
               alt="logo"
@@ -96,18 +94,9 @@ const Footer = () => {
               various categories that are chosen by the Pool Pros for the Pool
               Pros in our industry.
             </p>
-            <div className="mt-5">
-              <ul className="flex gap-5">
-                <li>Facebook</li>
-                <li>Twitter</li>
-                <li>Instagram</li>
-                <li>LinkedIn</li>
-                <li>YouTube</li>
-              </ul>
-            </div>
           </div>
 
-          <div className="flex flex-col">
+          <div className="basis-[15%] flex flex-col">
             <h1 className="font-semibold text-xl uppercase mb-5">Company</h1>
             <ul>
               <li>About Us</li>
@@ -118,7 +107,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="flex flex-col">
+          <div className="basis-[15%] flex flex-col">
             <h1 className="font-semibold text-xl uppercase mb-5">Support</h1>
             <ul>
               <li>Help Center</li>
@@ -129,22 +118,39 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="flex flex-col">
-            <h1 className="font-semibold text-xl uppercase mb-5">Subscribe</h1>
-            <p>Join our newsletter for the latest updates.</p>
-            <form action="" className="mt-3">
-              <div className="flex w-full max-w-sm items-center gap-2">
-                <Input type="email" placeholder="Email" required />
-                <Button type="submit" variant="outline">
-                  Subscribe
-                </Button>
+          <div className="basis-[30%] flex flex-col">
+            <div className="dark:bg-gray-900/90 bg-[#FAF8FF] border shadow rounded-xl h-full p-6">
+              <h6 className="text-xl font-bold">
+                Don’t Miss the Monthly Spotlight
+              </h6>
+              <p>
+                Join our mailing list and receive a free Spotlight update every
+                month—straight to your inbox.
+              </p>
+              <div className="flex w-full items-center gap-2 mt-4">
+                <form action="" className="flex w-full gap-2.5">
+                  <Input
+                    className="w-full z-50"
+                    type="email"
+                    placeholder="Email Address"
+                    required
+                  />
+                  <Button
+                    type="submit"
+                    variant="outline"
+                    className="cursor-pointer z-50"
+                  >
+                    Subscribe
+                  </Button>
+                </form>
               </div>
-            </form>
+            </div>
           </div>
         </div>
 
         <div className="h-px bg-linear-to-r from-[#f8f7f7] dark:from-[#0a0118] dark:via-[#2b2338] via-[#dddddd] dark:to-[#0a0118] to-[#f8f7f7] "></div>
-        <div className="flex justify-between gap-10 py-5 flex-wrap text-sm">
+
+        <div className="flex justify-center md:justify-between gap-5 md:gap-10 py-5 flex-wrap text-sm text-center md:text-left md:flex-nowrap">
           <div>
             <p>
               Copyright© {new Date().getFullYear()}, All rights reserved.

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Button } from "./ui/button";
 import ThemeToggle from "./theme-toggle";
+import { Menu } from "lucide-react";
 
 const Navbar = () => {
   return (
@@ -12,7 +13,14 @@ const Navbar = () => {
             alt="logo"
             width={244}
             height={57}
-            className="cursor-pointer"
+            className="hidden md:block cursor-pointer"
+          />
+          <Image
+            src="/mobile-logo.png"
+            alt="logo"
+            width={70}
+            height={70}
+            className="md:hidden cursor-pointer"
           />
         </div>
 
@@ -26,10 +34,13 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div className="flex justify-end items-center space-x-4">
+        <div className="flex justify-end items-center gap-4">
           <ThemeToggle />
-          <Button size="lg">Sign In</Button>
-          <Button variant="outline" size="lg">
+          <Menu className="md:hidden cursor-pointer" />
+          <Button className="hidden md:block" size="lg">
+            Sign In
+          </Button>
+          <Button className="hidden md:block" variant="outline" size="lg">
             Sign Up
           </Button>
         </div>

@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 const AfterParty = () => {
   return (
     <div>
-      <div className="container mx-auto flex flex-row gap-10 py-20">
+      <div className="container mx-auto flex flex-col md:flex-row gap-10 px-5 py-10 md:py-20">
         <div className="basis-[70%]">
           <h1 className="text-3xl font-bold mb-4">{afterParty.title}</h1>
           <p className="">{afterParty.description}</p>
@@ -23,7 +23,7 @@ const AfterParty = () => {
 
           <div className="h-px bg-linear-to-r from-[#f8f7f7] dark:from-[#0a0118] dark:via-[#2b2338] via-[#dddddd] dark:to-[#0a0118] to-[#f8f7f7] "></div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 py-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 py-4">
             {afterParty.images.map((image, index) => (
               <div
                 key={index}
