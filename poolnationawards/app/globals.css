@@ -123,13 +123,3 @@
     @apply bg-background text-foreground;
   }
 }
-
-.swiper-slide {
-  opacity: 0.8;
-  transition: opacity 0.7s ease, transform 0.7s ease;
-}
-
-.swiper-slide-active {
-  opacity: 1;
-  transform: scale(1.08);
-}

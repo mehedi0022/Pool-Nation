@@ -10,6 +10,7 @@ import { useState } from "react";
 
 import galleryImage from "@/assets/data/galleryImages.json";
 import Image from "next/image";
+import { Button } from "./ui/button";
 
 const PictureGallery = () => {
   const [activeYear, setActiveYear] = useState("2025");
@@ -20,7 +21,7 @@ const PictureGallery = () => {
           Picture Gallery
         </h2>
         <p className="text-center mb-10">Previous Year Picture.</p>
-        <div className="max-w-6xl mx-auto mb-10 px-5">
+        <div className="max-w-5xl mx-auto mb-10">
           <Swiper
             slidesPerView={5}
             spaceBetween={20}
@@ -33,7 +34,7 @@ const PictureGallery = () => {
               1024: { slidesPerView: 5 },
             }}
           >
-            {["2026", "2025", "2024", "2023", "2022", "2021"].map((year) => (
+            {["2025", "2024", "2023", "2022", "2021"].map((year) => (
               <SwiperSlide key={year}>
                 <div
                   onClick={() => setActiveYear(year)}
@@ -98,6 +99,12 @@ const PictureGallery = () => {
                     </SwiperSlide>
                   ))}
                 </Swiper>
+
+                <div className="mt-6 text-center">
+                  <Button variant="outline" asChild>
+                    <a href={item.fullUrl}>View Full Gallery</a>
+                  </Button>
+                </div>
               </div>
             ))}
         </div>
