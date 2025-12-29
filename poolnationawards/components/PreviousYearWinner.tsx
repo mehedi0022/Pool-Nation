@@ -36,22 +36,20 @@ const PreviousYearWinner = () => {
               1536: { slidesPerView: 6 },
             }}
           >
-            {["2026", "2025", "2024", "2023", "2022", "2021", "2020"].map(
-              (year) => (
-                <SwiperSlide key={year}>
-                  <div
-                    onClick={() => setActiveYear(year)}
-                    className={`px-6 py-2.5 border rounded-md cursor-pointer text-base font-semibold ${
-                      activeYear === year
-                        ? "bg-linear-to-t from-[#483B5E] dark:from-[#0a0118] to-[#1F0349] dark:to-[#2b2338] text-white transition-all duration-300"
-                        : "hover:text-white hover:bg-linear-to-t from-[#483B5E] dark:from-[#0a0118] to-[#1F0349] dark:to-[#2b2338]"
-                    }`}
-                  >
-                    <h3 className="text-center">{year}</h3>
-                  </div>
-                </SwiperSlide>
-              )
-            )}
+            {["2026", "2025", "2024", "2023", "2022", "2021"].map((year) => (
+              <SwiperSlide key={year}>
+                <div
+                  onClick={() => setActiveYear(year)}
+                  className={`px-6 py-2.5 border rounded-md cursor-pointer text-base font-semibold ${
+                    activeYear === year
+                      ? "bg-linear-to-t from-[#483B5E] dark:from-[#0a0118] to-[#1F0349] dark:to-[#2b2338] text-white transition-all duration-300"
+                      : "hover:text-white hover:bg-linear-to-t from-[#483B5E] dark:from-[#0a0118] to-[#1F0349] dark:to-[#2b2338]"
+                  }`}
+                >
+                  <h3 className="text-center">{year}</h3>
+                </div>
+              </SwiperSlide>
+            ))}
           </Swiper>
         </div>
       </div>

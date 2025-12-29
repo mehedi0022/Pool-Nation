@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "year": "2025",
+    "title": "Award Ceremony 2025",
+    "description": "Highlights from the 2025 Pool Nation Awards ceremony.",
+    "thumbnail": [
+      {
+        "url": "/img/nominee/Alicia-Stephens.jpg",
+        "width": 400,
+        "height": 300,
+        "alt": "Award Ceremony 2021 - Image 1"
+      },
+      {
+        "url": "/img/nominee/Lauren-Broom.jpg",
+        "width": 400,
+        "height": 300,
+        "alt": "Award Ceremony 2021 - Image 1"
+      },
+      {
+        "url": "/img/nominee/Makenzi-Kinder.jpg",
+        "width": 400,
+        "height": 300,
+        "alt": "Award Ceremony 2021 - Image 1"
+      },
+      {
+        "url": "/img/nominee/Maria-Castellanos.jpg",
+        "width": 400,
+        "height": 300,
+        "alt": "Award Ceremony 2021 - Image 1"
+      },
+      {
+        "url": "/img/nominee/Nick-LaPointe.jpg",
+        "width": 400,
+        "height": 300,
+        "alt": "Award Ceremony 2021 - Image 1"
+      },
+      {
+        "url": "/img/nominee/Miguel-Cabello.jpg",
+        "width": 400,
+        "height": 300,
+        "alt": "Award Ceremony 2021 - Image 2"
+      }
+    ],
+    "fullUrl": "#"
+  },
+  {
+    "id": 2,
+    "year": "2024",
+    "title": "Award Ceremony 2024",
+    "description": "Highlights from the 2024 Pool Nation Awards ceremony.",
+    "thumbnail": [
+      {
+        "url": "/img/nominee/Alicia-Stephens.jpg",
+        "width": 400,
+        "height": 300,
+        "alt": "Award Ceremony 2022 - Image 1"
+      },
+      {
+        "url": "/img/nominee/Alicia-Stephens.jpg",
+        "width": 400,
+        "height": 300,
+        "alt": "Award Ceremony 2022 - Image 1"
+      },
+      {
+        "url": "/img/nominee/Alicia-Stephens.jpg",
+        "width": 400,
+        "height": 300,
+        "alt": "Award Ceremony 2022 - Image 1"
+      },
+      {
+        "url": "/img/nominee/Alicia-Stephens.jpg",
+        "width": 400,
+        "height": 300,
+        "alt": "Award Ceremony 2022 - Image 1"
+      },
+      {
+        "url": "/img/nominee/Alicia-Stephens.jpg",
+        "width": 400,
+        "height": 300,
+        "alt": "Award Ceremony 2022 - Image 1"
+      },
+      {
+        "url": "/img/nominee/Alicia-Stephens.jpg",
+        "width": 400,
+        "height": 300,
+        "alt": "Award Ceremony 2022 - Image 1"
+      },
+      {
+        "url": "/img/nominee/Alicia-Stephens.jpg",
+        "width": 400,
+        "height": 300,
+        "alt": "Award Ceremony 2022 - Image 2"
+      }
+    ],
+    "fullUrl": "#"
+  }
+]
