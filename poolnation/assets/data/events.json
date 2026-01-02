@@ -1,0 +1,246 @@
+[
+  {
+    "_id": 1,
+    "type": "Event",
+    "status": "Completed",
+    "name": "Summer Pool Tournament",
+    "featured_image": "https://example.com/images/summer-pool-tournament.jpg",
+    "gallery_images": [
+      "https://example.com/images/summer-pool-tournament-1.jpg",
+      "https://example.com/images/summer-pool-tournament-2.jpg",
+      "https://example.com/images/summer-pool-tournament-3.jpg"
+    ],
+    "sponsor_logos": [
+      "https://example.com/logos/sponsor1.png",
+      "https://example.com/logos/sponsor2.png"
+    ],
+    "date": "2024-07-15",
+    "location": "New York City",
+    "description": "Join us for a fun-filled summer pool tournament with exciting prizes!",
+    "tickets": [
+      {
+        "title": "Standard Pass",
+        "type": "General Admission",
+        "features": [
+          "Free T-shirt",
+          "Free Lunch",
+          "Access to all tournament areas",
+          "Participation certificate"
+        ],
+        "regular_price": 20.0,
+        "offered_price": 15.0,
+        "total_seat": 100,
+        "availability": true
+      },
+      {
+        "title": "VIP Pass",
+        "type": "VIP Admission",
+        "features": [
+          "All Standard Pass features",
+          "Meet and greet with professional players",
+          "Exclusive VIP lounge access",
+          "Complimentary drinks"
+        ],
+        "regular_price": 50.0,
+        "offered_price": 40.0,
+        "total_seat": 20,
+        "availability": true
+      }
+    ]
+  },
+  {
+    "_id": 2,
+    "type": "Event",
+    "status": "Upcoming",
+    "name": "Autumn Pool Championship",
+    "featured_image": "https://example.com/images/summer-pool-tournament.jpg",
+    "gallery_images": [
+      "https://example.com/images/summer-pool-tournament-1.jpg",
+      "https://example.com/images/summer-pool-tournament-2.jpg",
+      "https://example.com/images/summer-pool-tournament-3.jpg"
+    ],
+    "sponsor_logos": [
+      "https://example.com/logos/sponsor1.png",
+      "https://example.com/logos/sponsor2.png"
+    ],
+    "date": "2024-10-05",
+    "location": "Los Angeles",
+    "description": "Compete in the prestigious Autumn Pool Championship and showcase your skills!",
+    "tickets": [
+      {
+        "title": "Participant Pass",
+        "type": "General Admission",
+        "features": [
+          "Tournament entry",
+          "Event T-shirt",
+          "Access to practice sessions",
+          "Participation certificate"
+        ],
+        "regular_price": 30.0,
+        "offered_price": 25.0,
+        "total_seat": 150,
+        "availability": true
+      },
+      {
+        "title": "Spectator Pass",
+        "type": "Spectator Admission",
+        "features": [
+          "Access to spectator areas",
+          "Event program booklet",
+          "Refreshments included"
+        ],
+        "regular_price": 15.0,
+        "offered_price": 10.0,
+        "total_seat": 200,
+        "availability": true
+      }
+    ]
+  },
+  {
+    "_id": 3,
+    "type": "Event",
+    "status": "Upcoming",
+    "name": "Winter Pool Festival",
+    "featured_image": "https://example.com/images/summer-pool-tournament.jpg",
+    "gallery_images": [
+      "https://example.com/images/summer-pool-tournament-1.jpg",
+      "https://example.com/images/summer-pool-tournament-2.jpg",
+      "https://example.com/images/summer-pool-tournament-3.jpg"
+    ],
+    "sponsor_logos": [
+      "https://example.com/logos/sponsor1.png",
+      "https://example.com/logos/sponsor2.png"
+    ],
+    "date": "2024-12-20",
+    "location": "Chicago",
+    "description": "Celebrate the winter season with a festive pool event featuring games and entertainment!",
+    "tickets": [
+      {
+        "title": "Festival Pass",
+        "type": "General Admission",
+        "features": [
+          "Access to all festival activities",
+          "Free hot chocolate and snacks",
+          "Event souvenir",
+          "Participation certificate"
+        ],
+        "regular_price": 25.0,
+        "offered_price": 20.0,
+        "total_seat": 120,
+        "availability": true
+      },
+      {
+        "title": "Family Pass",
+        "type": "Family Admission",
+        "features": [
+          "Access for 4 family members",
+          "Family photo session",
+          "Exclusive family activities",
+          "Complimentary refreshments"
+        ],
+        "regular_price": 80.0,
+        "offered_price": 70.0,
+        "total_seat": 30,
+        "availability": true
+      }
+    ]
+  },
+  {
+    "_id": 4,
+    "type": "Boot Camp",
+    "status": "Upcoming",
+    "name": "Spring Pool Gala",
+    "featured_image": "https://example.com/images/summer-pool-tournament.jpg",
+    "gallery_images": [
+      "https://example.com/images/summer-pool-tournament-1.jpg",
+      "https://example.com/images/summer-pool-tournament-2.jpg",
+      "https://example.com/images/summer-pool-tournament-3.jpg"
+    ],
+    "sponsor_logos": [
+      "https://example.com/logos/sponsor1.png",
+      "https://example.com/logos/sponsor2.png"
+    ],
+    "date": "2025-03-10",
+    "location": "Miami",
+    "description": "Experience the elegance of the Spring Pool Gala with live music and gourmet dining!",
+    "tickets": [
+      {
+        "title": "Gala Pass",
+        "type": "General Admission",
+        "features": [
+          "Access to gala event",
+          "Gourmet dinner",
+          "Live entertainment",
+          "Event souvenir"
+        ],
+        "regular_price": 100.0,
+        "offered_price": 85.0,
+        "total_seat": 80,
+        "availability": true
+      },
+      {
+        "title": "Table for Two",
+        "type": "VIP Admission",
+        "features": [
+          "All Gala Pass features",
+          "Reserved table for two",
+          "Champagne toast",
+          "Personalized service"
+        ],
+        "regular_price": 200.0,
+        "offered_price": 180.0,
+        "total_seat": 20,
+        "availability": true
+      }
+    ]
+  },
+  {
+    "_id": 5,
+    "type": "Boot Camp",
+    "status": "Cancelled",
+    "name": "Champions Pool Series",
+    "featured_image": "https://example.com/images/summer-pool-tournament.jpg",
+    "gallery_images": [
+      "https://example.com/images/summer-pool-tournament-1.jpg",
+      "https://example.com/images/summer-pool-tournament-2.jpg",
+      "https://example.com/images/summer-pool-tournament-3.jpg"
+    ],
+    "sponsor_logos": [
+      "https://example.com/logos/sponsor1.png",
+      "https://example.com/logos/sponsor2.png"
+    ],
+    "date": "2025-06-25",
+    "location": "Las Vegas",
+    "description": "Witness the best pool players compete in the Champions Pool Series for glory and prizes!",
+    "tickets": [
+      {
+        "title": "Champion Pass",
+        "type": "General Admission",
+        "features": [
+          "Access to all matches",
+          "Event T-shirt",
+          "Meet and greet with players",
+          "Participation certificate"
+        ],
+        "regular_price": 40.0,
+        "offered_price": 35.0,
+        "total_seat": 200,
+        "availability": true
+      },
+      {
+        "title": "Elite Pass",
+        "type": "VIP Admission",
+        "features": [
+          "All Champion Pass features",
+          "Exclusive VIP seating",
+          "Complimentary drinks and snacks",
+          "Behind-the-scenes tour"
+        ],
+        "regular_price": 80.0,
+        "offered_price": 70.0,
+        "total_seat": 50,
+        "availability": true
+      }
+    ]
+  }
+]
